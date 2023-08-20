@@ -1,10 +1,10 @@
 # Assinador-Livre 📝
 ## Desenvolvido com o propósito de assinar digitalmente documentos PDF* e DOCX*.
-Assine documentos PDF* e DOCX* com o seu próprio certificado e insira logos transparentes na assinatura.
+Assine documentos PDF* e DOCX* com o seu próprio certificado e insira logos transparentes na assinatura
 
 ### A imagem deve ser tranparente e possuir 99x40 pixels.
 
-### Requisitos: 
+### Requisitos ✅ 
 
 ### tkinter
 pip install tk
@@ -24,7 +24,7 @@ pip install pil-plus
 ### *docx*
 pip install docx-hitalent
 
-### Downloads
+### Downloads ✅
 
 #### EXE: [Aqui](https://drive.google.com/file/d/1dCb8XwBQDQvQibfDA9PXyZDpY25bQR7p/view?usp=sharing)
 
