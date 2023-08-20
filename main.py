@@ -118,7 +118,7 @@ class PDFSignerApp:
         else:
             messagebox.showerror("Error", "Invalid file format.")
 
-    # ... (rest of the methods)
+   
 
     def sign_pdf(self, image_reader):
         signer_name = self.signer_name_entry.get()
@@ -183,7 +183,7 @@ class PDFSignerApp:
         self.progress_bar["value"] = 100  # Set progress bar to 100%
         self.root.update()
         
-    # Rest of the code remains the same
+    
     def create_text_object(self, text, page):
         packet = io.BytesIO()
         can = canvas.Canvas(packet, pagesize=(page.mediabox[2], page.mediabox[3]))
@@ -211,7 +211,7 @@ class PDFSignerApp:
         packet = io.BytesIO()
         can = canvas.Canvas(packet, pagesize=(width, height))
         
-        # Draw the image
+        
         image_width, image_height = image_reader.getSize()
         image_position_x = (width - image_width) / 2
         image_position_y = (height - image_height) / 2
